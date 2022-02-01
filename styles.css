@@ -78,14 +78,16 @@ body{
 
 
   #menu-tile {
-    background: url('../images/menu-tile.jpg') no-repeat;
+    background: url('images/menu.jfif') no-repeat;
     background-position: center;
+    background-size: 100% 300px;
   }
 
 
   #specials-tile {
-    background: url('../images/specials-tile.jpg') no-repeat;
+    background: url('images/specials.jpg') no-repeat;
     background-position: center;
+    background-size: 100% 300px;
   }
 
   
@@ -114,6 +116,10 @@ body{
     .navbar-brand h1{
         font-size: 1em;
     }
+
+    #menu-tile, #specials-tile, #map-tile{
+        margin-left: auto;
+    }
 }  /* EXTRA SMALL DEVICES */
 
 
@@ -121,6 +127,10 @@ body{
 @media (min-width: 480px) and (max-width: 599px) {
     .navbar-brand h1{
         font-size: 1.3em;
+    }
+
+    #menu-tile, #specials-tile, #map-tile{
+        margin-left: auto;
     }
 } /* SMALL DEVICES */
 
@@ -138,6 +148,11 @@ body{
 
     .nav-item{
         margin-left: 30px;
+    }
+
+    #menu-tile, #specials-tile, #map-tile{
+        height: 200px;
+        margin-left: 50px;
     }
 
     
