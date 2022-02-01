@@ -47,3 +47,45 @@ body{
 .nav-item{
     margin-left: 50px;
 }
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 479px) {
+    #header-nav-img{
+        width: 60px;
+        height: 60px;
+    }
+
+    .navbar-brand h1{
+        font-size: 1em;
+    }
+}  /* EXTRA SMALL DEVICES */
+
+
+
+@media (min-width: 480px) and (max-width: 599px) {
+    .navbar-brand h1{
+        font-size: 1.3em;
+    }
+} /* SMALL DEVICES */
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #header-nav-img{
+        width: 60px;
+        height: 60px;
+    }
+
+    .navbar-brand h1{
+        font-size: 1em;
+    }
+
+    .nav-item{
+        margin-left: 30px;
+    }
+
+    
+} /* MEDIUM DEVICES */
+
