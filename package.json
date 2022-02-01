@@ -1,0 +1,22 @@
+{
+  "name": "bliss-farm",
+  "version": "1.0.0",
+  "description": "This is my personal first project",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muhtoyyib/Bliss-Farm.git"
+  },
+  "author": "Akande Olalekan Toheeb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Muhtoyyib/Bliss-Farm/issues"
+  },
+  "homepage": "https://github.com/Muhtoyyib/Bliss-Farm#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0"
+  }
+}
