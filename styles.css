@@ -42,11 +42,22 @@ body{
 #Navbar{
     font-family: 'Luxurious Roman', cursive;
     font-size: 1.3em;
+    margin-right: 50px;
 }
 
 .nav-item{
-    margin-left: 50px;
+    margin-left: 40px;
 }
+
+#nav-list a {
+    color: #7395a7;
+    text-align: center;
+}
+
+.glyphicon{
+    color: #fff;
+}
+
 
 
 .container .jumbotron {
@@ -57,6 +68,8 @@ body{
   #MainImg{
       max-width: 100%;
       height: auto;
+      margin-top: 20px;
+      border-radius: 10px;
   }
 
 
@@ -105,6 +118,53 @@ body{
   }
 
 
+  .panel-footer {
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    background-color: #5d5c61;;
+    border-top: 0;
+  }
+  .panel-footer div.row {
+    margin-bottom: 25px;
+  }
+  #hours, #address {
+    line-height: 1.5;
+  }
+  #hours > span, #address > span {
+    font-size: 1.3em;
+  }
+  #address p {
+    color: #000000c0;
+    font-size: .8em;
+    line-height: 1.8;
+  }
+  #testimonials {
+    font-style: italic;
+  }
+  #testimonials p:nth-child(2) {
+    margin-top: 25px;
+  }
+
+  #call-btn{
+      background-color:#000000 ;
+      margin: auto;
+      width: 170px;
+      border-radius: 5px;
+      margin-top: 5px;
+  }
+
+  #call-btn a{
+    font-size: 1.5em;
+    font-weight: 800;
+    color: whitesmoke;
+  }
+
+  #xs-deliver{
+      font-size: 1em;
+      color: #FFC0CB;
+  }
+
 /* MEDIA QUERIES */
 
 @media (max-width: 479px) {
@@ -129,6 +189,8 @@ body{
         font-size: 1.3em;
     }
 
+
+
     #menu-tile, #specials-tile, #map-tile{
         margin-left: auto;
     }
@@ -138,16 +200,24 @@ body{
 
 @media (min-width: 768px) and (max-width: 991px) {
     #header-nav-img{
-        width: 60px;
-        height: 60px;
+        width: 120px;
+        height: 120px;
     }
 
     .navbar-brand h1{
-        font-size: 1em;
+        font-size: 1.2em;
     }
 
     .nav-item{
-        margin-left: 30px;
+        margin-left: 10px;
+    }
+
+    #Navbar{
+        margin-right: -5px;
+    }
+
+    #nav-list a {
+        font-size: 0.8em;
     }
 
     #menu-tile, #specials-tile, #map-tile{
